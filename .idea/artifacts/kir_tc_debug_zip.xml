@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact name="kir-tc-debug-zip">
+    <output-path>$PROJECT_DIR$/out/artifacts/kir_tc_debug_zip</output-path>
+    <root id="root">
+      <element id="archive" name="kir-tc-debug.zip">
+        <element id="artifact" artifact-name="kir-tc-debug" />
+      </element>
+    </root>
+  </artifact>
+</component>
