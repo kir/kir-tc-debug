@@ -9,5 +9,6 @@
   <!-- see http://static.springsource.org/spring/docs/3.0.x/spring-framework-reference/html/beans.html -->
 
   <bean class="jetbrains.kir.DebugListener" autowire="constructor"/>
+  <bean class="jetbrains.kir.DebugAction" autowire="constructor"/>
 
 </beans>

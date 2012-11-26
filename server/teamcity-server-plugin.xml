@@ -3,11 +3,11 @@
                  xsi:noNamespaceSchemaLocation="urn:shemas-jetbrains-com:teamcity-plugin-v1-xml">
   <info>
     <name>Debug plugin from KIR</name>
-    <display-name>This plugin writes some debug information on TeamCity start to TeamCity/kir-debug.log</display-name>
-    <version>1</version> <!-- will be replaced from script -->
+    <display-name>This plugin writes some debug information on request to TeamCity/logs/teamcity-kir.log</display-name>
+    <version>2</version> <!-- will be replaced from script -->
     <vendor>
-      <name>Kirill Maximov (JetBrains)</name>  <!-- will be replaced from script -->
-      <url></url> <!-- will be replaced from script -->
+      <name>Kirill Maximov (JetBrains)</name>
+      <url>https://github.com/kir/kir-tc-debug</url>
     </vendor>
   </info>
   <deployment use-separate-classloader="true"/>
